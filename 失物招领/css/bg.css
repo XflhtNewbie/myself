@@ -1,0 +1,26 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    padding-bottom: 50px;
+}
+#bg{
+    background-image:url("../imgs/bg1.jpg") ;
+    text-align: center;
+}
+.cover{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.p1{
+    font-size: 80px;
+}
+.p2{
+    font-size: 20px;
+}
