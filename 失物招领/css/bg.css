@@ -26,10 +26,28 @@ header{
 }
 .border{
     width: 50px;
-    height: 50px;
+    height:50px;
     margin: 50px auto;
     background-color: #2bab99;
     border-radius: 100px;
     font-size: 20px;
     text-align: center;
+}
+.border:hover{
+    top: -5px;
+    box-shadow: 0 0 15px white;
+    transition: all .4s;
+}
+.tub{
+    padding-top: 8px;
+    color: white;
+}
+.qui-footer {
+    position: fixed;
+    bottom: 0;
+    left:44%;
+}
+.qui-footer a{
+    text-decoration: none;
+    color:white;
 }
